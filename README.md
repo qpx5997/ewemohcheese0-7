@@ -344,3 +344,5 @@ qpx5997
 v0.1: first demo ver!!!!!!
 
 v0.2: updated to show the version number
+
+v0.3: made it so that it exits if its the wrong extensiom!!!!!!
