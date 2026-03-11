@@ -8,7 +8,7 @@ to_iterate = {}
 iterations = {}
 loopstarts = {}
 
-code_file_name = input("""👋➡️🐑Ⓜ️😮🧀0️⃣⏺️1️2️⃣❗❗❗❗
+code_file_name = input("""👋➡️🐑Ⓜ️😮🧀0️⃣⏺️3️⃣❗❗❗❗
 ⌨️📁🏷️➡️➡️➡️ """)
 
 try:
@@ -26,6 +26,7 @@ if Path(code_file_name).suffix != ".🐑Ⓜ️😮🧀":
     print(f"""☹️❌👎
 📍⌨️📁
 ⏺️🐑Ⓜ️😮🧀✅⏺️{Path(code_file_name).suffix}❌❌❌❌❌❌""")
+    exit()
 
 codelines = full_code.split("\n")
 
