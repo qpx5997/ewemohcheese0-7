@@ -8,7 +8,7 @@ to_iterate = {}
 iterations = {}
 loopstarts = {}
 
-code_file_name = input("""👋➡️🐑Ⓜ️😮🧀0️⃣⏺️3️⃣❗❗❗❗
+code_file_name = input("""👋➡️🐑Ⓜ️😮🧀0️⃣⏺️4️⃣❗❗❗❗
 ⌨️📁🏷️➡️➡️➡️ """)
 
 try:
@@ -19,13 +19,17 @@ except Exception as e:
     print(f"""☹️❌👎
 📍⌨️📁
 {e}
-🙋🦥🛌""")
+🙋🦥🛌
+👉⌨️""")
+    input()
     exit()
 
 if Path(code_file_name).suffix != ".🐑Ⓜ️😮🧀":
     print(f"""☹️❌👎
 📍⌨️📁
-⏺️🐑Ⓜ️😮🧀✅⏺️{Path(code_file_name).suffix}❌❌❌❌❌❌""")
+⏺️🐑Ⓜ️😮🧀✅⏺️{Path(code_file_name).suffix}❌❌❌❌❌❌
+👉⌨️""")
+    input()
     exit()
 
 codelines = full_code.split("\n")
@@ -53,6 +57,12 @@ while i <= len(codelines): # it has to be a while loop so loops work properly
                 print(variables[linesegs[1][1:]])
             else:
                 print(linesegs[1])
+
+        elif linesegs[0] == "🖨️🔚": # this is like pythons print("", end="") function
+            if linesegs[1][0] == "📦":
+                print(variables[linesegs[1][1:]], end="")
+            else:
+                print(linesegs[1], end="")
 
         elif linesegs[0] == "⏳": # this just makes it wait for a specified amount of time
             if linesegs[1][0] == "📦":
@@ -129,6 +139,7 @@ while i <= len(codelines): # it has to be a while loop so loops work properly
         print(f"""☹️❌👎
 📍{i}
 {e}
-🙋🦥🛌""")
-
+🙋🦥🛌
+👉⌨️""")
+        input()
         exit()
