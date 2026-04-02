@@ -298,7 +298,7 @@ just put this:
 
 so say the user inputted 7, now a will be 7 because of the above line of code.
 
-## chapter 8: LOUPS
+## chapter 9: LOUPS
 
 LOUPS make you loup a lot. basically makes it run over the asame code many many many times!!!!!!!!!
 
@@ -322,7 +322,23 @@ it prints I <3 🐑Ⓜ️😮🧀 3 times. and ⬆️ shows the end of the loop.
 
 ok
 
-## chapter 9: exiting
+## chapter 10: ETERNALITY
+
+make epople go in ETERNALITY. using the **🔄️**
+
+```
+➰⏩3
+🖨️⏩🐑Ⓜ️😮🧀➡️👍👍👍
+🔄️
+🗒️ THE 🔄️ MAEK PPL GO TO ETERNAL.
+⬆️
+```
+
+BUTT! because this is pythob u can eazily get yourself out of the plight by pressing ctrl c!!!! yay thx guido
+
+also this can allow for while loops whonce i add the if in the future!!! so uhh yeah buye
+
+## chapter 11: exiting
 
 if u want your program to END ALREADY BEFORE IT FINISHES RUNNING, just put
 
@@ -332,7 +348,7 @@ if u want your program to END ALREADY BEFORE IT FINISHES RUNNING, just put
 
 it ends the code!
 
-## chapter 10:erors,oof!!!
+## chapter 12:erors,oof!!!
 
 oh no!!! erors exist in 🐑Ⓜ️😮🧀 u know!!!
 
@@ -379,7 +395,7 @@ this is rthe **WORSTEST *SIN*** **OF ALL!!** its **VERY BA**D!!! the thing u did
 
 # This is why u should never do this kind of thing!!! dont u ever do this!!! maek sure all ur file s are ending with .🐑Ⓜ️😮🧀 and not anything else!!!!!!!!!!!!!!!!
 
-## chapter 11: u can do stuff
+## chapter 13: u can do stuff
 
 coagulations u just finished this! go on and code!!!!!!!!!!!!!!!!!!!
 
@@ -391,7 +407,9 @@ u r free to use it however u want!!! because mit license!!! and change the code!
 
 ### my monologue about opensourceism
 
-i support opensourceism!!! unlike microsoft who close source it and expect us to decode the exes and dlls, not implying that microsoft is bad but the world needs code for all to share and use and copy freely without permission! the world is full of software like fl studio where u have to pay $59 to make music and adobe animate where one needs to pay $170 A YEAR JUST TO ANIMATE OBJECT SHOWS!!! all my software is free to use and there on github, i use the mit license because it allows the most freedom!!! ok bye
+i support opensourceism!!! unlike microsoft who close source it and expect us to decode the exes and dlls, not implying that microsoft is bad but the world needs code for all to share and use and copy freely without permission!* the world is full of software like fl studio where u have to pay $59 to make music and adobe animate where one needs to pay $170 A YEAR JUST TO ANIMATE OBJECT SHOWS!!! all my software is free to use and there on github, i use the mit license because it is good!!! it allows people to uhh umm copy and share and use it freely withut permision! thanks masechusets! ok bye
+
+*just kidding i know we arent suppose to decode the dlls lol
 
 tysm for reding this and see u again!
 
@@ -407,7 +425,7 @@ qpx5997
 
 .bye!!
 
-## Chapter 12: versions
+## Chapter 14: versions
 
 v0.1: first demo ver!!!!!!
 
@@ -416,3 +434,5 @@ v0.2: updated to show the version number
 v0.3: made it so that it exits if its the wrong extensiom!!!!!!
 
 v0.4: made it so that u have to press enter to exit after u see the error so u actually have time to see it!!! also added 🖨️🔚
+
+v0.5: added 🔄️!!! also aded more cooments in the sourcecode
