@@ -6,7 +6,7 @@ awesomely brought to you by qpx5997
 
 ## CHaptet 0: note
 
-this is only a demo version, it doesbt come with ifelse or forever loops and stuff, if u want that then wait a few more weeks or so! ok bye
+this is only a demo version, it doesbt come with ifelse and stuff, if u want that then wait a few more weeks or so! ok bye
 
 # Part 1: things to do before u code (READ THIS BEFORE DOWNLOADING)
 
