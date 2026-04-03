@@ -427,14 +427,14 @@ qpx5997
 
 ## Chapter 14: versions
 
-v0.1: first demo ver!!!!!!
+v0.1 (08/03/2026): first demo ver!!!!!!
 
-v0.2: updated to show the version number
+v0.2 (08/03/2026): updated to show the version number
 
-v0.3: made it so that it exits if its the wrong extensiom!!!!!!
+v0.3 (11/03/2026): made it so that it exits if its the wrong extensiom!!!!!!
 
-v0.4: made it so that u have to press enter to exit after u see the error so u actually have time to see it!!! also added 🖨️🔚
+v0.4 (14/03/2026): made it so that u have to press enter to exit after u see the error so u actually have time to see it!!! also added 🖨️🔚
 
-v0.5: added 🔄️!!! also aded more cooments in the sourcecode
+v0.5 (02/04/2026): added 🔄️!!! also aded more cooments in the sourcecode
 
-v0.6 bugfix! if -> elif
+v0.6 (02/04/2026): bugfix! if -> elif
