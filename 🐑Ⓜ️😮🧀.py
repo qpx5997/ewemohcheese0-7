@@ -8,7 +8,7 @@ to_iterate = {} # how many times a loop has to iterate
 iterations = {} # how many times a loop has iterated
 loopstarts = {} # which line a loop starts at
 
-code_file_name = input("""👋➡️🐑Ⓜ️😮🧀0️⃣⏺️6️⃣❗❗❗❗
+code_file_name = input("""👋➡️🐑Ⓜ️😮🧀0️⃣⏺️7️⃣❗❗❗❗
 ⌨️📁🏷️➡️➡️➡️ """)
 
 try:
@@ -40,6 +40,7 @@ while i <= len(codelines): # it has to be a while loop so loops work properly
     try:
 
         line = codelines[i - 1] # This is separate from the for line so loops can work properly
+        line = line.lstrip() # Remove whitespace so indentation works
         linesegs = line.split("⏩")
 
         if linesegs[0] == "⬆️": # denotes end of a loop
@@ -70,7 +71,7 @@ while i <= len(codelines): # it has to be a while loop so loops work properly
         elif linesegs[0] == "⏳": # this just makes it wait for a specified amount of time
             if linesegs[1][0] == "📦":
                 time.sleep(float(variables[linesegs[1][1:]]))
-            else: 
+            else:
                 time.sleep(float(linesegs[1]))
 
         elif linesegs[0] == "🗒️": # comments
