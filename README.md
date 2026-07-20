@@ -360,7 +360,38 @@ EcxAMPLE OF INDENTATION!!
 ⬆️
 ```
 
-## chapter 12: exiting
+## chapter 12: what if???
+Have you ever looked at Cycles and just thought to yourself, "What if this was an extreme demo-- oh wait sorry wrong script lol
+
+Have you ever looked at your program and wondered "what if it could do a thing and another make choices branch possibilities endless creativity if greater than operators bitwise xor operator turing completeness if?"
+
+no?
+
+well then **thats the right atttute to hve** because ***TODAY*** well be lookign atv the ***IF*** statement and just how fire it is 🔥🔥🔥🔥
+
+lets get right into it, and im gonna do a cool transition.
+
+**COOL TR*ANS*ITION**
+
+so, if you want your program to say "YAY" when a variable reaches 5, do this:::
+
+```
+📦⏩a⏩🔢0
+📦⏩b⏩🔢5
+➰⏩10
+➕⏩a⏩1
+🖨️⏩📦a
+❓⏩🟰⏩a⏩b
+🖨️⏩YAY
+❓⬆️
+⬆️
+```
+
+it reaches 5 and itsis very amusing because it says YAY. o maib god11
+
+AND NESTED IFS WORK FOR ALL YOUR NESTING NEEDS
+
+## chapter 13: exiting
 
 if u want your program to END ALREADY BEFORE IT FINISHES RUNNING, just put
 
@@ -370,7 +401,7 @@ if u want your program to END ALREADY BEFORE IT FINISHES RUNNING, just put
 
 it ends the code!
 
-## chapter 13:erors,oof!!!
+## chapter 14:erors,oof!!!
 
 oh no!!! erors exist in 🐑Ⓜ️😮🧀 u know!!!
 
@@ -417,7 +448,7 @@ this is rthe **WORSTEST *SIN*** **OF ALL!!** its **VERY BA**D!!! the thing u did
 
 # This is why u should never do this kind of thing!!! dont u ever do this!!! maek sure all ur file s are ending with .🐑Ⓜ️😮🧀 and not anything else!!!!!!!!!!!!!!!!
 
-## chapter 14: u can do stuff
+## chapter 15: u can do stuff
 
 coagulations u just finished this! go on and code!!!!!!!!!!!!!!!!!!!
 
@@ -447,7 +478,7 @@ qpx5997
 
 .bye!!
 
-## Chapter 15: versions
+## Chapter 16: versions
 
 v0.1 (08/03/2026): first demo ver!!!!!!
 
@@ -459,6 +490,8 @@ v0.4 (14/03/2026): made it so that u have to press enter to exit after u see the
 
 v0.5 (02/04/2026): added 🔄️!!! also aded more cooments in the sourcecode
 
-v0.6 (02/04/2026): bugfix! if -> elif
+v0.6 (02/04/2026): smol bugfix
 
 v0.7 (04/04/2026): allowed indentation
+
+v0.8: Added IF (but only with the = operator)!!!!!
