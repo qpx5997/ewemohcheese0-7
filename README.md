@@ -494,4 +494,4 @@ v0.6 (02/04/2026): smol bugfix
 
 v0.7 (04/04/2026): allowed indentation
 
-v0.8: Added IF (but only with the = operator)!!!!!
+v0.8 (20/07/2026): Added IF (but only with the = operator)!!!!!
