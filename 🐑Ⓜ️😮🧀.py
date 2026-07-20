@@ -1,5 +1,6 @@
 import time
 from pathlib import Path
+import traceback
 
 # Set variables, lists, dictionaries
 variables = {}
@@ -8,7 +9,10 @@ to_iterate = {} # how many times a loop has to iterate
 iterations = {} # how many times a loop has iterated
 loopstarts = {} # which line a loop starts at
 
-code_file_name = input("""👋➡️🐑Ⓜ️😮🧀0️⃣⏺️7️⃣❗❗❗❗
+ifid = 0 # level of nesting for if statements
+ifends = [] # stores the ending lines of if statements
+
+code_file_name = input("""👋➡️🐑Ⓜ️😮🧀0️⃣⏺️8️⃣❗❗❗❗
 ⌨️📁🏷️➡️➡️➡️ """)
 
 try:
@@ -53,7 +57,11 @@ while i <= len(codelines): # it has to be a while loop so loops work properly
                 iterations.pop(loopid)
                 loopid -= 1
 
-        elif linesegs[0] == "🔄️": # continue statement
+        if linesegs[0] == "❓⬆️": # denotes end of an if statement
+            ifid -= 1 # clear necessary if-statement data
+            ifends.remove(ifends[ifid])
+
+        elif linesegs[0] == "🔄️": # continue statement, perfect for ETERNALITY
             i = loopstarts[loopid]
 
         elif linesegs[0] == "🖨️": # this is like pythons print() function
@@ -134,6 +142,24 @@ while i <= len(codelines): # it has to be a while loop so loops work properly
 
         elif linesegs[0] == "⌨️🔢": # user input but number
             most_recent_answer = int(input())
+
+        elif linesegs[0] == "❓": # IF
+            ifid += 1
+
+            j = i
+            while True: # check where the end of the if statement is
+
+                if "❓⬆️" in codelines[j]: # just to be a bit lenient
+                    ifends.append(j)
+                    break
+                else:
+                    j += 1
+
+            if linesegs[1] == "🟰": # if something equals something.
+                if variables[linesegs[2]] == variables[linesegs[3]]:
+                    pass
+                else:
+                    i = ifends[ifid - 1] # jump to nearest ❓⬆️, aka end of the if-statement
 
         elif linesegs[0] == "🚪": # bye bye user
             exit()
