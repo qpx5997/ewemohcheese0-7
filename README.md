@@ -391,6 +391,8 @@ it reaches 5 and itsis very amusing because it says YAY. o maib god11
 
 AND NESTED IFS WORK FOR ALL YOUR NESTING NEEDS
 
+and also u r only alowed to compare variables bcs i was lazy.
+
 ## chapter 13: exiting
 
 if u want your program to END ALREADY BEFORE IT FINISHES RUNNING, just put
