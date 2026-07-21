@@ -259,7 +259,11 @@ say u want to add 5 to variable `a`:
 ```
 ➕⏩a⏩5
 ```
+u can also do this if you want to add a + b:
 
+```
+➕⏩a⏩📦b
+```
 COAGUALTIOB!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!1
 
 and the same syntax for everyone ele!
