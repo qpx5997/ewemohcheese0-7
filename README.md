@@ -6,7 +6,7 @@ awesomely brought to you by qpx5997
 
 ## CHaptet 0: note
 
-this is only a demo version, it doesbt come with ifelse and stuff, if u want that then wait a few more weeks or so! ok bye
+this is only a demo version, theres still stuff i havent added, if u want them then wait a few more weeks or so! ok bye
 
 # Part 1: things to do before u code (READ THIS BEFORE DOWNLOADING)
 
@@ -39,9 +39,7 @@ WAIT FIRST!! we dont have functions!!! u just have to copy paste large chunks of
 
 and no while loops either!!! just use the builtin forever loop and then if something happens then break!!!
 
-why none of these features??? because im lazy and its probably already turing complete i think
-
-(actually it isnt, its only a demo version currently)
+why none of these features??? because im lazy and its probably already turing complete i think (it kind of is i think)
 
 youre even lucky to have a language with such simple and readable syntax!!! take a look at whatever this Brainf███ code is:
 
@@ -391,7 +389,7 @@ it reaches 5 and itsis very amusing because it says YAY. o maib god11
 
 AND NESTED IFS WORK FOR ALL YOUR NESTING NEEDS
 
-and also u r only alowed to compare variables bcs i was lazy.
+and also u r only alowed to compare variables bcs i was lazy. greater than and less than comin' soon lol!
 
 ## chapter 13: exiting
 
